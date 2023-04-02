@@ -12,7 +12,7 @@ const AccVerify = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const response = await fetch(
-      `https://userbackend-yacu.onrender.com/accverify/${email}`,
+      `https://userbackend-yacu.onrender.com/api/accverify/${email}`,
       {
         method: "POST",
         headers: {
